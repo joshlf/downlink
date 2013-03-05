@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Downlink</title>
+		<link href="resources/main.css" rel="stylesheet">
+		<script type="text/javascript">
+		<!--
+			var text = "Right Click to Download"
+
+			function makeLink() {
+				var elem = document.getElementById("target");
+				var link = document.getElementById("link").value;
+				elem.setAttribute("href", link);
+				elem.innerHTML = text;
+				return false;
+			}
+		-->
+		</script>
+	</head>
+	<body>
+		<div id="container">
+			<h1>
+				<a id="target" class="link" href=""></a>
+			</h1>
+			<form action="#" method="" onsubmit="return makeLink();">
+			<input type="text" id="link">
+			<br>
+			<input type="submit" value="Downlink">
+		</div>
+	</body>
+</html>
